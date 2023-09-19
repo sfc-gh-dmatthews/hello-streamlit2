@@ -23,7 +23,8 @@ def run():
         page_title="Hello",
         page_icon="👋",
     )
-
+    
+    st.write(":balloon:")
     st.write("# Welcome to Streamlit! 👋")
 
     st.sidebar.success("Select a demo above.")
